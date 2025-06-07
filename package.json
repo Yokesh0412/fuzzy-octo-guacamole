@@ -4,7 +4,7 @@
   "description": "Setup Playwright",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm init playwright@latest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Yokesh0412/fuzzy-octo-guacamole/issues"
   },
-  "homepage": "https://github.com/Yokesh0412/fuzzy-octo-guacamole#readme"
+  "homepage": "https://github.com/Yokesh0412/fuzzy-octo-guacamole#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.30"
+  }
 }
